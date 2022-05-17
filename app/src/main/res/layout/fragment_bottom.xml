@@ -7,32 +7,12 @@
     android:orientation="horizontal"
     android:background="#D69FB1">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
     <TextView style="@style/TextAppearance.AppCompat.Title"
+        android:id="@+id/bottom_title"
         android:text="I am BOTTOM fragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"/>
-
-    <Button
-        android:id="@+id/btn_add_bottom_fragment"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="Add bottom fragment"/>
-
-
-    </LinearLayout>
-
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"/>
 
 
 </LinearLayout>
