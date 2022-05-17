@@ -23,7 +23,13 @@
         android:id="@+id/btn_add_bottom_fragment"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Add bottom fragment"/>
+        android:text="Add fragment"/>
+
+        <Button
+            android:id="@+id/btn_delete_bottom_fragment"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Delete fragment"/>
 
 
     </LinearLayout>

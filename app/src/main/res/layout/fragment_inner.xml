@@ -5,6 +5,7 @@
     android:background="#EFCD68">
 
     <TextView style="@style/TextAppearance.AppCompat.Title"
+        android:id="@+id/inner_text"
         android:text="I am INNER fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
